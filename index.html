@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 3 16s1</title>
+</head>
+<body>
+    <nav class="navbar">
+    
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+        </div>
+
+        <button class="cart-button" onclick="handleCartClick()">
+            <span>Cart</span> 
+            <img src="cart.png" alt="Cart Icon"> 
+            <div id="cartCountDisplay"></div> <!-- This will show the cart count -->
+        </button>
+    </nav>
+
+    <div class="item-container">
+        
+        <div class="item">
+            <span>Item 1</span>
+            <button class="minus" onclick="updateCartDisplay(-1)">-</button>
+            <button class="plus" onclick="updateCartDisplay(1)">+</button>
+        </div>
+
+         
+        <div class="item">
+            <span>Item 2</span>
+            <button class="minus" onclick="updateCartDisplay(-1)">-</button>
+            <button class="plus" onclick="updateCartDisplay(1)">+</button>
+        </div>
+
+         
+        <div class="item">
+            <span>Item 3</span>
+            <button class="minus" onclick="updateCartDisplay(-1)">-</button>
+            <button class="plus" onclick="updateCartDisplay(1)">+</button>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
