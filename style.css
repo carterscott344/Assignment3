@@ -41,12 +41,10 @@
     display: inline-block; 
     background-color: red;  
     border: none;
-    color: #fff;
     font-size: 30px;
     padding: 7px 9px; 
     border-radius: 6px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
-    color: white;         
     margin-left: 15px;
 }
 
@@ -65,3 +63,36 @@
     transform: translateY(2px); 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
+
+
+.plus{
+    background-color: lime
+}
+
+.minus{
+    background-color: red;
+}
+.addToCart{
+    background-color: #007bff;  
+}
+
+.item-container button{
+    align-items: center;
+    color: #333;
+    border: none;
+    font-size: 35px; 
+    border-radius: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);  
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;  
+    font-family: 'Source Code Pro', monospace;
+        
+}
+
+.item-container img{
+    height: 30vw;
+    width: 25vw;
+}
+
