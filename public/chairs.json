@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Wooden Chair",
+        "image": "./images/WoodenChair.png",
+        "price": 100
+    },
+    {
+        "id": 2,
+        "name": "Steel Folding Chair",
+        "image": "./images/SteelFoldingChair.png",
+        "price": 100
+    },
+    {
+        "id": 3,
+        "name": "Barstool",
+        "image": "./images/Barstool.png",
+        "price": 100
+    },
+    {
+        "id": 4,
+        "name": "Recliner",
+        "image": "./images/Recliner.png",
+        "price": 100
+    },
+    {
+        "id": 5,
+        "name": "Gaming Chair",
+        "image": "./images/GamingChair.png",
+        "price": 100
+    },
+    {
+        "id": 6,
+        "name": "Rocking Chair",
+        "image": "./images/RockingChair.png",
+        "price": 100
+    },
+    {
+        "id": 7,
+        "name": "Bean Bag Chair",
+        "image": "./images/BeanBagChair.png",
+        "price": 100
+    },
+    {
+        "id": 8,
+        "name": "Executive Chair",
+        "image": "./images/ExecutiveChair.png",
+        "price": 100
+    },
+    {
+        "id": 9,
+        "name": "Lounge Chair",
+        "image": "./images/LoungeChair.png",
+        "price": 100
+    }
+]
