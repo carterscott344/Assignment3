@@ -1,0 +1,113 @@
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.search-box {
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+.search-box input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.cart-button {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;  
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 15px; 
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);  
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;  
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+#cartCountDisplay {
+    display: inline-block; 
+    border: none;
+    font-size: 30px;
+    padding: 7px 9px; 
+    border-radius: 6px;
+    margin-left: 15px;
+}
+
+
+.cart-button img {
+    width: 2.5vw;
+    height: auto;
+    margin-left: 15px;
+}
+
+.cart-button:hover {
+    background-color: #0056b3; 
+}
+
+.cart-button:active {
+    transform: translateY(2px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+
+.plus{
+    background-color: lime
+}
+
+.minus{
+    background-color: red;
+}
+.addToCart{
+    background-color: #007bff;  
+}
+
+.item-container button{
+    align-items: center;
+    color: #333;
+    border: none;
+    font-size: 35px; 
+    border-radius: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);  
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;  
+    font-family: 'Source Code Pro', monospace;
+        
+}
+
+.item-container {
+    display: grid;                             
+    grid-template-columns: repeat(3, 1fr);     
+    gap: 20px;                                 
+    padding: 20px;                             
+}
+
+.item {
+    background-color: #f9f9f9;                
+    border: 1px solid #ccc;                   
+    border-radius: 8px;                        
+    padding: 80px;                             
+    text-align: center;                        
+}
+
+.item img {
+    height: auto;                               
+    max-height: 250px;                          
+    max-width: 100%;                            
+    border-radius: 4px;                         
+}
+
